@@ -58,7 +58,7 @@ enum PROMO_VIEWS {
     SUCCESS = 'SUCCESS',
 }
 
-const portis = new Portis('443771ae-a78e-47aa-8e58-ee982f807c22', 'mainnet');
+const portis = new Portis('22c78726-ed2f-4771-9e02-7fb73777db00', 'mainnet');
 
 interface INoticeViewProps {
     isSuccess?: boolean,
@@ -180,7 +180,7 @@ const BlauPage = () => {
             return (
                 <>
                     <p className="promo-text">
-                        NFTs will be awarded to the first 99 users to create or log into a Portis wallet.
+                        NFTs will be awarded to the first 200 users to create or log into a Portis wallet.
                     </p>
                     {claimButton}
                 </>
@@ -188,8 +188,8 @@ const BlauPage = () => {
         } else if (promoView === PROMO_VIEWS.POST_EVENT) {
             return (
                 <>
-                    <p className="promo-text font-black">This event has ended.</p>
-                    <p className="promo-text">You can still create a Portis wallet to buy, sell, and hold NFTs.</p>
+                    <p className="promo-text font-black">NFT Mystery Grab</p>
+                    <p className="promo-text">Your Portis wallet to buy, sell, and share NFTs</p>
                     <button onClick={onCreateWalletClick} className="blau-button">
                         Create Wallet
                     </button>
@@ -198,10 +198,10 @@ const BlauPage = () => {
         } else if (promoView === PROMO_VIEWS.PRE_EVENT) {
             return (
                 <div>
-                    <p className="promo-date">06.04.21</p>
+                    <p className="promo-date">06.14.21</p>
                     <p className="promo-text pre">For updates, follow:</p>
-                    <a href="https://twitter.com/3LAU" target="_blank" rel="noopener" className="promo-link">
-                        twitter.com/3LAU
+                    <a href="https://twitter.com/eblockventures" target="_blank" rel="noopener" className="promo-link">
+                        twitter.com/eblockventures
                     </a>
                     <a href="https://twitter.com/portis_io" target="_blank" rel="noopener" className="promo-link">
                         twitter.com/portis_io
@@ -217,14 +217,14 @@ const BlauPage = () => {
         <>
             <Head>
                 <link rel="icon" href="/static/favicon.ico"/>
-                <title>Portis × 3LAU</title>
+                <title>Crypto: Tel Aviv</title>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap"
                       rel="stylesheet"/>
             </Head>
             <div className="blau-wrap">
                 <div className="blau-logo-wrap">
-                    <img className="blau-logo" src="/static/3lau-logo.png" alt="3LAU Logo"/>
+                    <img className="blau-logo" src="/static/3lau-logo.png" alt="Crypto: Tel Aviv Logo"/>
                 </div>
                 <div className="content-strip">
                     <div className="strip-inner">

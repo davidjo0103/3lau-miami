@@ -21,12 +21,10 @@ body {
 }
 .blau-logo {
   width: 100%;
-  max-width: 300px;
   display: block;
   margin: 0 auto;
   margin-bottom: 10vh;
-  opacity: 0.9;
-  mix-blend-mode: overlay;
+  opacity: 1;
 }
 .blau-button {
   display: block;
