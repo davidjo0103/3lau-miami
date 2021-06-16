@@ -180,7 +180,7 @@ const BlauPage = () => {
             return (
                 <>
                     <p className="promo-text">
-                        NFTs will be awarded to the first 200 users to create or log into a Portis wallet.
+                        NFTs will be awarded to the first 50 users to create or log into a Portis wallet.
                     </p>
                     {claimButton}
                 </>
@@ -198,7 +198,7 @@ const BlauPage = () => {
         } else if (promoView === PROMO_VIEWS.PRE_EVENT) {
             return (
                 <div>
-                    <p className="promo-date">06.14.21</p>
+                    <p className="promo-date">June 17th, 2021</p>
                     <p className="promo-text pre">For updates, follow:</p>
                     <a href="https://twitter.com/eblockventures" target="_blank" rel="noopener" className="promo-link">
                         twitter.com/eblockventures
